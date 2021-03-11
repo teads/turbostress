@@ -29,7 +29,7 @@ Flags:
       --method string                            the method to use to generate the load. See stress-ng cpu-method flag (default "all")
       --metrics strings                          turbostat columns to read (default [PkgWatt,RAMWatt,PkgTmp])
       --repeat int                               measures are repeated with this value and the measure is the mean of all repetitions (default 10)
-      --threads int                              number of threads to use for the load, defaults to the number of core on the system (default to the number of cores)
+      --threads int                              number of threads to use for the load (default to the number of threads on the system)
       --vm                                       launch VM test. See stress-ng vm flag (default true)
 ```
 ## Without Docker
