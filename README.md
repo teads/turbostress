@@ -1,5 +1,6 @@
 This tool generates load and outputs computer power metrics for this load.  
-It's meant to run on a bare metal Linux host.  
+It's meant to run on an Intel-based bare metal Linux host. 
+If you want to do power profiling for AMD host you can alternatively use the AMD μProf tool.
 
 # Usage
 Use `--help` flag to get help on usage
